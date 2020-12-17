@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipOption"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipJobs"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffefe2"
+            android:text="Jobs"
+            app:checkedIcon="@drawable/check_circle"
+            app:checkedIconVisible="true"
+            app:chipBackgroundColor="@drawable/chip_selection"
+            app:chipStrokeColor="#ffdcc1"
+            app:chipStrokeWidth="1dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipAdmission"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffefe2"
+            android:text="admission"
+            app:checkedIcon="@drawable/check_circle"
+            app:checkedIconVisible="true"
+            app:chipBackgroundColor="@drawable/chip_selection"
+            app:chipStrokeColor="#ffdcc1"
+            app:chipStrokeWidth="1dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFees"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffefe2"
+            android:text="Fees"
+            app:checkedIcon="@drawable/check_circle"
+            app:checkedIconVisible="true"
+            app:chipBackgroundColor="@drawable/chip_selection"
+            app:chipStrokeColor="#ffdcc1"
+            app:chipStrokeWidth="1dp" />
+    </com.google.android.material.chip.ChipGroup>
+
+
+</LinearLayout>

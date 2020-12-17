@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#56b73c</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Colors_Widget.MaterialComponents.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">#ecffe3</item>
+        <item name="chipStrokeColor">#a6eaa5</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">#a6eaa5</item>
+        <item name="checkedIconVisible">true</item>
+    </style>
+</resources>
