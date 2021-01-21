@@ -8,10 +8,11 @@
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/chipOption"
+        app:singleSelection="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.google.android.material.chip.Chip
+     <!--   <com.google.android.material.chip.Chip
             android:id="@+id/chipJobs"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
@@ -22,9 +23,9 @@
             app:checkedIconVisible="true"
             app:chipBackgroundColor="@drawable/chip_selection"
             app:chipStrokeColor="#ffdcc1"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp" />-->
 
-        <com.google.android.material.chip.Chip
+      <!--  <com.google.android.material.chip.Chip
             android:id="@+id/chipAdmission"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
@@ -48,7 +49,7 @@
             app:checkedIconVisible="true"
             app:chipBackgroundColor="@drawable/chip_selection"
             app:chipStrokeColor="#ffdcc1"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp" />-->
     </com.google.android.material.chip.ChipGroup>
 
 
