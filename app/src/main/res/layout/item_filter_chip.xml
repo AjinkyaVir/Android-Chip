@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.chip.Chip android:id="@+id/chipJobs"
+    style="@style/Widget.MaterialComponents.Chip.Choice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffefe2"
+    android:text="Jobs"
+    app:checkedIcon="@drawable/check_circle"
+    app:checkedIconVisible="true"
+    app:chipBackgroundColor="@drawable/chip_selection"
+    app:chipStrokeColor="#ffdcc1"
+    app:chipStrokeWidth="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
